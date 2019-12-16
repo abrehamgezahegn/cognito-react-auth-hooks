@@ -1,0 +1,35 @@
+{
+  "name": "cognito-react-auth-hooks",
+  "version": "0.0.0",
+  "description": "",
+  "private": false,
+  "license": "(ISC OR GPL-3.0)",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "babel": {
+    "presets": [
+      "@babel/react"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abrehamgezahegn/cognito-auth-hooks.git"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.7.5",
+    "amazon-cognito-identity-js": "^3.2.0",
+    "antd": "^3.26.3",
+    "aws-sdk": "^2.591.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.0",
+    "serialize-javascript": "^2.1.1"
+  },
+  "scripts": {
+    "publish:npm": "NODE_ENV=production && rm -rf dist && mkdir dist && npx babel src --out-dir dist --copy-files"
+  },
+  "author": "abreham_gezahegn",
+  "bugs": {
+    "url": "https://github.com/abrehamgezahegn/cognito-auth-hooks/issues"
+  },
+  "homepage": "https://github.com/abrehamgezahegn/cognito-auth-hooks#readme"
+}
