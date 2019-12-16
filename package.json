@@ -20,6 +20,7 @@
     "amazon-cognito-identity-js": "^3.2.0",
     "antd": "^3.26.3",
     "aws-sdk": "^2.591.0",
+    "react": "^16.12.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0",
     "serialize-javascript": "^2.1.1"
