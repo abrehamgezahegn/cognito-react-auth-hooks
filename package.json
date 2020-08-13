@@ -23,7 +23,7 @@
     "react": "^16.12.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0",
-    "serialize-javascript": "^2.1.1"
+    "serialize-javascript": "^4.0.0"
   },
   "scripts": {
     "publish:npm": "NODE_ENV=production && rm -rf dist && mkdir dist && npx babel src --out-dir dist --copy-files"
